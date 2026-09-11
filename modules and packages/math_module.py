@@ -6,3 +6,6 @@
 # print(sqrt(16))
 # print(pi)
 
+import datetime as dt
+today=dt.date.today()
+print("today's date:",today)
