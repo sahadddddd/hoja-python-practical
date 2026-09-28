@@ -5,3 +5,5 @@ try:
 
 except:
     print("oops! something went wrong")
+    print(1)
+    
