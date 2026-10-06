@@ -238,24 +238,23 @@ report = SalesReport()
 report.generate()
 
 
-# Q10.class CoffeeMachine:
+#Q10.. Create a small example where forgetting abstraction causes errors due to calling functions in the wrong order.
+class CoffeeMachine:
 
     def grind_beans(self):
-        print("Grinding beans...")
+        print("Beans are ground")
 
     def heat_water(self):
-        print("Heating water...")
+        print("Water is heated")
 
     def brew(self):
-        print("Brewing coffee...")
+        print("Coffee is brewed")
 
 
-coffee = CoffeeMachine()
+machine = CoffeeMachine()
 
 # Wrong order
-coffee.brew()
-coffee.grind_beans()
-coffee.heat_water()
-
-
+machine.brew()
+machine.grind_beans()
+machine.heat_water()
 
