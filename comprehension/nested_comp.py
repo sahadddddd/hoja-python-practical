@@ -5,3 +5,8 @@ flat=[num for row in matrix for num in row]
 print(flat)
 pairs=[(x,y)for x in range(1,4) for y in range(1,4)]
 print(pairs)
+rslt=[]
+for row in matrix:
+    for num in row:
+        rslt.append(num)
+print(rslt)
