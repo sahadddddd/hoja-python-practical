@@ -16,5 +16,3 @@ p=upi()
 c=card()
 p.pay(1000)
 c.pay(3000)
-
-        
