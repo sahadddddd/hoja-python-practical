@@ -44,7 +44,11 @@ print(lis)
 
 #Q9. Flatten the nested list [[1, 2], [3,4], [5,6]] using a nested list comprehension.
 list=[[1, 2], [3,4], [5,6]]
-flat=[]
+flat=[num for row in list for num in row]
+print(flat)
 
 #Q10 Convert the tuple (1, 2, 3, 4, 5) into a generator that yields each number squared,then convert it to a tuple and print it.
-
+numbers=(1,2,3,4,5)
+gen=(num**2 for num in numbers)
+result=tuple(gen)
+print(result)
