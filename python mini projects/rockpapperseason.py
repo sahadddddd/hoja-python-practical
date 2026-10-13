@@ -46,12 +46,12 @@ def play_game():
      result=check_winner(player,computer)
      print("result:",result)
 
-def main():
+def run():
      print("welcome to rock papper scissors")
      play_game()
 
 if __name__ == "__main__":
-     main()
+     run()
 
 
          
